@@ -1,0 +1,31 @@
+// Contient les règle basique 
+html{
+    // Pour passer en 10px pour le rem
+    font-size: 62.5%;
+}
+body{
+    // on vient déclarer la font général
+    font-family: var(--font-family);
+    // on utilise un noir moins moche pour le texte
+    color: var(--text);
+    //on passe la taille de police à 16px
+    font-size: 1.6rem;
+}
+p{
+    //on ajoute une marge vertical de base
+    margin: 1rem 0;
+}
+h1, h2, h3, h4, h5, h6{
+    //on ajoute une marge verticale de base
+    margin: 1rem 0 2rem 0;
+}
+ul{
+    // on retire le style de base de la liste
+    list-style: none;
+}
+a{
+    //on vient passer les liens à la couleur de base
+    color: var(--text);
+    //on retire le soulignement de base des liens
+    text-decoration: none;
+}
