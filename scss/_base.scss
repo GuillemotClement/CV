@@ -29,3 +29,7 @@ a{
     //on retire le soulignement de base des liens
     text-decoration: none;
 }
+img{
+    //on fix la taille de l'image à la taille de son conteneur
+    max-width: 100%;
+}
